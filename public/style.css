@@ -1,0 +1,60 @@
+
+body {
+
+  background: #EAFC88; 
+ font-family: "franklin-gothic-urw-comp", sans-serif;
+font-weight: 700;
+  font-size:50px;
+font-style: normal;
+  color: #BDB4FF;
+  padding:20px;  
+}
+
+
+
+header,
+footer {
+  clear: both;
+}
+
+.container{
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:150px 150px 150px 100px;
+ 
+  
+  
+}
+
+#webcamPredictions {
+  inline-size:350px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+.cameraAcess {
+
+ margin:50px;
+  width:100px;
+   font-family: "franklin-gothic-urw-comp", sans-serif;
+font-weight: 700;
+  font-size:15px;
+font-style: normal;
+  color: #BDB4FF;
+  inline-size:350px;
+ grid-row-start: 4;
+
+
+}
+ 
+video{
+
+  width: 200%;
+}
+
+
+.removed {
+  display: none;
+}
+

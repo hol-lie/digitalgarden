@@ -1,0 +1,70 @@
+
+@media only screen and (max-width: 414px) {
+  body {
+
+  overflow:hidden;
+  background: #FFB985; 
+  display: grid;
+  grid-template-columns: 100px 100px  100px 100px;
+  grid-template-rows: 150px 150px 150px 150px 150px;
+/*   grid-auto-flow: column; */
+/*   height: 50vh; */
+  }
+
+
+div {
+display:grid; 
+  grid-row-start: 4; 
+  grid-column-start:1; 
+  grid-row-end: 5; 
+  grid-column-end:4;
+  
+/*   inline-size:300px; */
+/*    grid-row-start:4; */
+}
+  .intro{
+  display:grid; 
+  grid-row-start: 1; 
+  grid-column-start:1; 
+  grid-row-end: 4; 
+  grid-column-end:4;
+
+  }
+h1{
+  
+   grid-row-start: 4; 
+  grid-column-start:1; 
+  grid-row-end: 4; 
+  grid-column-end:4;
+ 
+  overflow:hidden;
+ 
+  background:#EDB5F7;
+  border-radius:20%;
+  border: 2px solid #EAFC88;
+  color:#EAFC88; 
+  width: 330px; 
+ 
+  font-family: "franklin-gothic-urw-comp", sans-serif;
+font-weight: 700;
+  font-size:55px;
+font-style: normal;
+  padding:20px;
+  
+  
+}
+  
+  h2{
+  display:grid;
+  color:#EAFC88; 
+  width: 100%; 
+  font-family: "franklin-gothic-urw-comp", sans-serif;
+  font-weight: 700;
+  font-size:40px;
+  font-style: normal;
+  padding:20px;
+  
+  
+} 
+  
+}
